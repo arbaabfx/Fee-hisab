@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "Fee Hisab - School & Tuition Fee Manager",
+  "short_name": "Fee Hisab",
+  "description": "Offline, encrypted fee manager for schools, coaching classes and tuition teachers. Receipts, dues, WhatsApp reminders, reports and backups.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#fff8ee",
+  "theme_color": "#d96f0b",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "finance", "productivity", "business"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Collect Fee", "short_name": "Collect", "description": "Record a fee payment", "url": "./?action=pay", "icons": [{"src": "shortcut-collect.png", "sizes": "96x96", "type": "image/png"}]},
+    {"name": "Students", "short_name": "Students", "description": "Open the students list", "url": "./?action=students", "icons": [{"src": "shortcut-students.png", "sizes": "96x96", "type": "image/png"}]},
+    {"name": "Reports", "short_name": "Reports", "description": "Open fee reports", "url": "./?action=reports", "icons": [{"src": "shortcut-reports.png", "sizes": "96x96", "type": "image/png"}]}
+  ],
+  "screenshots": [
+    {"src": "screenshot-1.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Home with today's collection and dues"},
+    {"src": "screenshot-2.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Students and fee status"},
+    {"src": "screenshot-3.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Secure PIN lock"}
+  ],
+  "prefer_related_applications": false
+}
